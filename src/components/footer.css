@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.footer i {
+    padding: 0.2rem ;
+}
