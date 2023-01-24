@@ -5,7 +5,7 @@ import pic1 from "../assets/ban.jpg"
 
 function Service() {
   return (
-    <div className='container'>
+    <div className='container' id='service'>
         <h1>Services</h1>
         <p>Lorem Ipsum is simply dummy text</p>
         <div className='servicecard'>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import  { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
 
@@ -24,10 +24,10 @@ function Navbar() {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <NavLink to={item.url} className={item.cName}>
+              <Link to={item.url} className={item.cName}>
                 <i className={item.icon}></i>
                 {item.title}
-              </NavLink>
+              </Link>
             </li>
           );
         })}
